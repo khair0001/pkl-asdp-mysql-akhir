@@ -320,7 +320,7 @@ async function generateSheetPengantar(
     };
     setBorder(worksheet.getCell(`E${startRow}`), "thin");
 
-    worksheet.getCell(`F${startRow}`).value = `Kmp. ${namaKapal} (${namaRute})`;
+    worksheet.getCell(`F${startRow}`).value = `Kmp. ${namaKapal}`;
     worksheet.getCell(`F${startRow}`).font = { bold: true };
     worksheet.getCell(`F${startRow}`).alignment = {
       horizontal: "left",
